@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include("./template/head.html")
+  <body>
+    <div class="wrapper page-form">
+      @@include("./template/header.html")
+      <section class="section section-ac">
+        <div class="container">
+          <div class="ac">
+            <div class="ac__item">
+              <div class="ac__picture">
+                <img src="./img/svg/ac1.svg" alt="" class="ac__img" />
+              </div>
+              <div class="ac__content">
+                <h2 class="ac__head">01</h2>
+                <div class="ac__text">Заполните анкету и получите ссылку на бота в Телеграм</div>
+              </div>
+            </div>
+
+            <div class="ac__item">
+              <div class="ac__picture">
+                <img src="./img/svg/ac2.svg" alt="" class="ac__img" />
+              </div>
+              <div class="ac__content">
+                <h2 class="ac__head">02</h2>
+                <div class="ac__text">
+                  Отправьте ссылку на бота потенциальным участникам или разместите ее в соцсетях
+                </div>
+              </div>
+            </div>
+
+            <div class="ac__item">
+              <div class="ac__picture">
+                <img src="./img/svg/ac3.svg" alt="" class="ac__img" />
+              </div>
+              <div class="ac__content">
+                <h2 class="ac__head">03</h2>
+                <div class="ac__text">
+                  Участники пришли на мероприятие и чекаются онлайн по ссылке
+                </div>
+              </div>
+            </div>
+
+            <div class="ac__item">
+              <div class="ac__picture">
+                <img src="./img/svg/ac4.svg" alt="" class="ac__img" />
+              </div>
+              <div class="ac__content">
+                <h2 class="ac__head">04</h2>
+                <div class="ac__text">
+                  Получите номера телефонов реальных участников вашего мероприятия на ваш адрес
+                  эл.почты
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-form">
+        <div class="container">
+          <div class="myform">
+            <h2 class="myform__head">
+              Заполните форму и получите ссылку
+              <br>
+              на бот для вашего мероприятия!
+            </h2>
+            <form action="">
+              <div class="form-group">
+                <label for="miting"><span class="bold">Название вашего мероприятия*</span></label>
+                <input type="text" class="form-control" id="miting" />
+              </div>
+
+              <div class="form-group">
+                <label for="miting">Описание вашего мероприятия </label>
+                <textarea class="form-control" id="miting"></textarea>
+              </div>
+
+              <div class="form-group">
+                <label><span class="bold">Адрес проведения* </span> </label>
+              </div>
+
+              <div class="form-group">
+                <label for="region">Регион</label>
+                <input type="text" class="form-control" id="region" />
+              </div>
+
+              <div class="form-group">
+                <label for="city">Населенный  пункт</label>
+                <input type="text" class="form-control" id="city" />
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-8">
+                  <label for="street">Улица</label>
+                  <input type="text" class="form-control" id="street" />
+                </div>
+
+                <div class="form-group col-md-4">
+                  <label for="home">№ дома</label>
+                  <input type="text" class="form-control" id="home" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="phone"><span class="bold">Ваш контактный номер телефона* </span></label>
+                <input type="tel" class="form-control" id="phone" />
+              </div>
+
+              <div class="form-group">
+                <label for="email"><span class="bold">Ваш адрес электронной почты* </span></label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+
+              <button class="btn btn-primary btn-lg w100 bold" type="submit">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      @@include("./template/footer.html")
+    </div>
+    @@include("./template/scripts.html")
+  </body>
+</html>
