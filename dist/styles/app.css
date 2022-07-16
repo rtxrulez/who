@@ -6688,6 +6688,10 @@ img {
   color: #ff793e;
 }
 
+.page-form .header .container::before {
+  display: none;
+}
+
 .main {
   display: flex;
   padding: 90px 0;
@@ -6757,6 +6761,7 @@ img {
   height: 63px;
   padding-left: 45px;
   padding-right: 45px;
+  white-space: nowrap;
 }
 
 .subscribe__blue {
@@ -10911,6 +10916,7 @@ img {
   }
 
   .page-general .logo-text {
+    text-align: center;
     padding: 40px 0;
   }
 
@@ -11084,6 +11090,19 @@ img {
 
   .myform .btn {
     margin-top: 20px;
+  }
+
+  .page-form .logo-text {
+    display: none;
+  }
+
+  .page-form .logo-img {
+    max-width: 50px;
+  }
+
+  .header .container {
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 

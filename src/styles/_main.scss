@@ -63,7 +63,14 @@ img {
   color: $orange;
 }
 
-.section-main {
+.page-form {
+  .header {
+    .container {
+      &::before {
+        display: none;
+      }
+    }
+  }
 }
 
 .main {
@@ -133,6 +140,7 @@ img {
     height: 63px;
     padding-left: 45px;
     padding-right: 45px;
+    white-space: nowrap;
   }
 
   &__blue {
@@ -382,6 +390,7 @@ img {
     }
 
     .logo-text {
+      text-align: center;
       padding: 40px 0;
     }
   }
@@ -539,9 +548,6 @@ img {
       width: 100%;
     }
 
-    &__text {
-    }
-
     &__head {
       font-size: 50px;
       font-weight: 500;
@@ -563,6 +569,24 @@ img {
       margin-top: 20px;
     }
   }
+
+  .page-form {
+    .logo-text {
+      display: none;
+    }
+
+    .logo-img {
+      max-width: 50px;
+    }
+  }
+
+  .header {
+    .container {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+
 }
 
 @media (max-width: 520px) {
