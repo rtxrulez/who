@@ -6961,6 +6961,10 @@ img {
   margin-top: 40px;
 }
 
+.myform textarea {
+  min-height: 195px;
+}
+
 .form-control {
   background: rgba(210, 226, 255, 0.1);
   border: 1px solid #000000;
